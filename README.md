@@ -6,18 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of almagro is to …
+The goal of almagro is to calculate the CODEX index in COPD.
 
 ## Installation
 
-You can install the released version of almagro from
-[CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("almagro")
-```
-
-And the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -30,7 +23,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(almagro)
-## basic example code
+almagro(charlson_index=1, fev=65, mmrc=1, exacerbation=2)
+# > 1
 ```
 
 
