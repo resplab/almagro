@@ -5,6 +5,7 @@
 
 [![R-CMD-check](https://github.com/resplab/almagro/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/resplab/almagro/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/resplab/almagro/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/resplab/almagro/actions/workflows/test-coverage.yaml)
+[![codecov](https://codecov.io/gh/resplab/almagro/branch/master/graph/badge.svg?token=6RZU4ED6GB)](https://codecov.io/gh/resplab/almagro)
 
 The goal of almagro is to calculate the CODEX index in COPD.
 
