@@ -3,8 +3,7 @@
 
 # almagro
 
-<!-- badges: start -->
-<!-- badges: end -->
+[![R-CMD-check](https://github.com/resplab/almagro/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/resplab/almagro/actions/workflows/R-CMD-check.yaml)
 
 The goal of almagro is to calculate the CODEX index in COPD.
 
