@@ -20,7 +20,7 @@ devtools::install_github("resplab/almagro")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which calculate the CODEX index, which is used to predict survival and risk of COPD readmission and assess the severity. The individual has Charlson Index (relatinng long-term mortality with the paitent's comorbidity) 1, 65% forced expiratory volume in one second (FEV1), the dyspnea scale of modified Medical Research Council (mMRC) 1, and 2 severe exacerbation of COPD during the precious year. He/she would have CODEX score 1.
 
 ``` r
 library(almagro)
