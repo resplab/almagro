@@ -10,7 +10,7 @@ test_output <- function() {
         exacerbation=0
       )
       ,
-      0
+      {codex:0}
     )
 
     expect_equal(
@@ -21,7 +21,7 @@ test_output <- function() {
         exacerbation=2
       )
       ,
-      4
+      {codex:4}
     )
 
     expect_equal(
@@ -32,7 +32,7 @@ test_output <- function() {
         exacerbation=3
       )
       ,
-      8
+      {codex:4}
     )
 
     expect_equal(
@@ -43,7 +43,7 @@ test_output <- function() {
         exacerbation=3
       )
       ,
-      10
+      {codex:10}
     )
   })
 }
