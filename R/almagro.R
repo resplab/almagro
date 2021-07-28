@@ -48,6 +48,9 @@ almagro <- function(charlson_index, fev, mmrc, exacerbation) {
   }
 
   codex <- comorbidity + obstruction + dyspnea + ex  
-  results <- codex
-  return(results)
+  results <- list()
+  results$codex <- codex
+  
+  return(results) 
+  
 }
