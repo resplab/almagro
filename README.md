@@ -25,7 +25,8 @@ This is a basic example which calculate the CODEX index, which is used to predic
 ``` r
 library(almagro)
 almagro(charlson_index=1, fev=65, mmrc=1, exacerbation=2)
-# > 1
+$codex
+[1] 1
 ```
 
 
