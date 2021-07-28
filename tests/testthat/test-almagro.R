@@ -8,9 +8,9 @@ test_output <- function() {
         fev=65,
         mmrc=1,
         exacerbation=0
-      )
+      )$codex
       ,
-      {codex:0}
+      0
     )
 
     expect_equal(
@@ -19,9 +19,9 @@ test_output <- function() {
         fev=60,
         mmrc=2,
         exacerbation=2
-      )
+      )$codex
       ,
-      {codex:4}
+      4
     )
 
     expect_equal(
@@ -30,9 +30,9 @@ test_output <- function() {
         fev=40,
         mmrc=3,
         exacerbation=3
-      )
+      )$codex
       ,
-      {codex:4}
+      8
     )
 
     expect_equal(
@@ -41,9 +41,9 @@ test_output <- function() {
         fev=30,
         mmrc=4,
         exacerbation=3
-      )
+      )$codex
       ,
-      {codex:10}
+      10
     )
   })
 }
